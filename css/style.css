@@ -1,0 +1,102 @@
+html, body {
+    font-family: "Roboto", sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #b0d574 url("../images/green.jpg") fixed no-repeat center;
+}
+
+#container {
+    min-height: 100%;
+}
+
+#topBar {
+    background-color: #f1c016;
+    padding: 10px 20px;
+    border-bottom: 1px solid #8b0589;
+}
+
+#topBar #navigation {
+    float: left;
+}
+
+#topBar #navigation ul {
+    list-style-type: none;
+}
+
+#topBar #navigation ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+#topBar #navigation a:link, #topBar #navigation a:visited {
+    text-decoration: underline;
+    color: #8b0101;
+}
+
+#topBar #navigation a:hover {
+    text-decoration: underline;
+    color: #fc6e13;
+}
+
+#topBar #persistentContact {
+    float: right;
+    text-align: right;
+}
+
+#topBar #persistentContact .phone {
+    color: #8b0589;
+    font-weight: bold;
+    font-size: large;
+}
+
+#topBar .clear-both {
+    clear: both;
+}
+
+#header {
+    color: #8b0589;
+    padding: 20px;
+}
+
+#header #logo {
+    display: inline;
+    vertical-align: top;
+    margin-right: 15px;
+}
+
+#header #title {
+    display: inline;
+    line-height: 100px;
+}
+
+#content {
+    clear: both;
+    color: black;
+    padding: 20px;
+}
+
+#content div.column {
+    float: left;
+    margin-right: 25px;
+}
+
+#footer {
+    background-color: #f1c016;
+    color: #fc6e13;
+    padding: 0 20px;
+    clear: both;
+    font-size: smaller;
+    line-height: 60px;
+    height: 100%;
+    border-top: 1px solid #8b0589;
+}
+
+.ho {
+    font-weight: bold;
+}
+
+.mi {
+    vertical-align: super;
+    font-size: smaller;
+}

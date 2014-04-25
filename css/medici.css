@@ -1,0 +1,34 @@
+.medic {
+    padding: 10px;
+    clear: both;
+}
+
+.medic .name {
+    color: #fc6e13;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.medic .border {
+    border-top: 1px solid #8b0589;
+}
+
+.medic .bio {
+    font-size: medium;
+}
+
+.medic .contact {
+    font-size: medium;
+}
+
+.medic .contact .place {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.medic .contact .place .placeName {
+    color: #8b0101;
+    font-size: large;
+    font-weight: bold;
+}

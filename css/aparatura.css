@@ -1,0 +1,19 @@
+.equipment {
+    width: 30%;
+    padding-bottom: 10px;
+}
+
+.equipment .function {
+    color: #8b0101;
+    font-size: small;
+}
+
+.equipment .brand {
+    color: #fc6e13;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.equipment .photo img {
+    border: 1px solid #8b0589;
+}

@@ -1,0 +1,11 @@
+#content h2 {
+    color: #fc6e13;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#content h3 {
+    color: #8b0101;
+    font-size: large;
+    font-weight: bold;
+}
