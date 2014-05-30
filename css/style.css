@@ -20,6 +20,7 @@ html, body {
 
 .logo .name {
     font-family: "Monsieur La Doulaise", cursive;
+	font-weight: bold;
     font-size: 60pt;
 }
 
