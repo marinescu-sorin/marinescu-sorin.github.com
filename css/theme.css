@@ -1,0 +1,53 @@
+html, body {
+    background: #002244 url("../images/green.jpg") fixed no-repeat center;
+}
+
+.logo .image {
+
+}
+
+.logo .name {
+    color: #cd0000;
+}
+
+.logo .business {
+
+}
+
+.logo .phone {
+    color: #99cc99;
+}
+
+.navigation a:link, .navigation a:visited {
+    color: #99cc99;
+}
+
+.navigation a:hover {
+    color: #cd0000;
+}
+
+.h1 {
+    color: #99cc99;
+}
+
+.h2 {
+    color: #99cc99;
+}
+
+.h3 {
+
+}
+
+#footer {
+    color: #99cc99;
+    background-color: #003366;
+    border-color: #002244;
+}
+
+#topBar {
+    color: #99cc99;
+    background-color: #003366;
+    border-color: #002244;
+    padding: 10px;
+    width: 100%;
+}

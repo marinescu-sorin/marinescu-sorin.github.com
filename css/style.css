@@ -1,95 +1,85 @@
 html, body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Open Sans", sans-serif;
     height: 100%;
     margin: 0;
     padding: 0;
-    background: #b0d574 url("../images/green.jpg") fixed no-repeat center;
 }
 
 #container {
     min-height: 100%;
 }
 
-#topBar {
-    background-color: #f1c016;
-    padding: 10px 20px;
-    border-bottom: 1px solid #8b0589;
+.logo {
+    padding: 10px;
 }
 
-#topBar #navigation {
+.logo .image {
+    vertical-align: middle;
     float: left;
 }
 
-#topBar #navigation ul {
+.logo .name {
+    font-family: "Monsieur La Doulaise", cursive;
+    font-size: 60pt;
+}
+
+.logo .business {
+    position: relative;
+    top: -1em;
+    text-transform: uppercase;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.logo .phone {
+    vertical-align: top;
+    text-align: right;
+    font-size: 21pt;
+    font-weight: bolder;
+}
+
+.navigation {
     list-style-type: none;
 }
 
-#topBar #navigation ul li {
+.navigation li {
     display: inline;
     margin-right: 10px;
 }
 
-#topBar #navigation a:link, #topBar #navigation a:visited {
+.navigation a:link, .navigation a:visited {
     text-decoration: underline;
-    color: #8b0101;
 }
 
-#topBar #navigation a:hover {
+.navigation a:hover {
     text-decoration: underline;
-    color: #fc6e13;
 }
 
-#topBar #persistentContact {
-    float: right;
+#persistentContact {
     text-align: right;
 }
 
-#topBar #persistentContact .phone {
-    color: #8b0589;
+.logo.phone {
+    color: #99cc99;
     font-weight: bold;
     font-size: large;
 }
 
-#topBar .clear-both {
-    clear: both;
-}
-
-#header {
-    color: #8b0589;
-    padding: 20px;
-}
-
-#header #logo {
-    display: inline;
-    vertical-align: top;
-    margin-right: 15px;
-}
-
-#header #title {
-    display: inline;
-    line-height: 100px;
-}
-
-#content {
-    clear: both;
-    color: black;
-    padding: 20px;
-}
-
-#content div.column {
-    float: left;
-    margin-right: 25px;
-}
-
 #footer {
-    background-color: #f1c016;
-    color: #fc6e13;
     padding: 0 20px;
     clear: both;
     font-size: smaller;
     line-height: 60px;
     height: 100%;
-    border-top: 1px solid #8b0589;
+    border: 1px solid;
+}
+
+.h1 {
+    color: #fc6e13;
+}
+
+.h2 {
+    color: #cd0000;
 }
 
 .ho {
@@ -97,6 +87,11 @@ html, body {
 }
 
 .mi {
+    font-weight: bold;
     vertical-align: super;
     font-size: smaller;
+}
+
+.column {
+    float: left;
 }

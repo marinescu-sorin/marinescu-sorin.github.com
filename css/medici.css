@@ -19,10 +19,11 @@
 
 .medic .contact {
     font-size: medium;
+    float: left;
+    width: 17em;
 }
 
 .medic .contact .place {
-    float: left;
     margin-right: 20px;
     margin-bottom: 10px;
 }
